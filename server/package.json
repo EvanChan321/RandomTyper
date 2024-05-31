@@ -1,0 +1,22 @@
+{
+  "name": "randomtyper",
+  "version": "1.0.0",
+  "description": "Random Typing game",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "build": "cd client && npm install && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/EvanChan321/RandomTyper.git"
+  },
+  "author": "Evan Cheng",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "engines": {
+    "node": "v21.7.3"
+  }
+}
